@@ -33,7 +33,7 @@ auth.onAuthStateChanged( user =>{
             direccion: registroform['rdireccion'].value
         });
     }).then( ()=>{
-        $('#registermodal').modal('hide');
+        $('#registratemodal').modal('hide');
         registroform.reset();
         registroform.querySelector('.error').innerHTML = '';
     }).catch( err => {
@@ -80,7 +80,7 @@ auth.onAuthStateChanged( user =>{
     console.log('CLICK')
   
     auth.signInWithEmailAndPassword(mail,password).then( cred =>{
-        $('#loginmodal').modal('hide');
+        $('#ingresarmodal').modal('hide');
         loginform.reset();
         loginform.querySelector('.error').innerHTML = '';
     }).catch( err => {
@@ -107,7 +107,7 @@ auth.onAuthStateChanged( user =>{
         `;
         dataAccount.innerHTML = html;
   
-        $('#loginmodal').modal('hide');
+        $('#ingresarmodal').modal('hide');
         loginform.reset();
         loginform.querySelector('.error').innerHTML = '';
         // ...
