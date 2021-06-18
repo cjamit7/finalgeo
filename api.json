@@ -1,0 +1,18 @@
+[
+    {
+        "Nombre": "SPOT 1",
+        "Latitude": "21.1642602",
+        "Longitude": "-98.1102263"
+               
+    },
+    {
+        "Nombre": "SPOT 2",
+        "Latitude": "21.9278879",
+        "Longitude": "-100.6982841"
+    },
+    {
+        "Nombre": "SPOT 3",
+        "Latitude": "21.9278879",
+        "Longitude": "-100.6982841"
+    }
+]
