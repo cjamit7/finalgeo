@@ -1,7 +1,7 @@
 auth.onAuthStateChanged( user =>{
     if(user){
         console.log('Usuario entró');
-
+        configuraMenu(user);
         var name, email, photoUrl, uid, emailVerified;
   
         name = user.displayName;
