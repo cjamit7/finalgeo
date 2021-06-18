@@ -48,11 +48,11 @@ function iniciaMapa(){
                     content: informacion
                 });
 
-                if(marcador.Nombre == marcador.PlaceName){
+                if(marcador.Nombre == marcador.Nombre){
                     let marker = new google.maps.Marker({
                         map: map,
                         position: new google.maps.LatLng(marcador.Latitude, marcador.Longitude),
-                        title: marcador.PlaceName
+                        title: marcador.Nombre
                     })
 
                     marker.addListener('click', function(){
